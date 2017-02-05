@@ -28,7 +28,7 @@ describe("Protractor Demo App",function(){
 
         gobtn.click();
 
-        expect(latestResult.getText()).toEqual('900');
+        expect(latestResult.getText()).toEqual('900'); //this is totally fine and can be done
     });
 
     browser.takeScreenshot();

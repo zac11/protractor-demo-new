@@ -102,9 +102,7 @@ describe("Protractor Demo App",function(){
 
         expect(latestResult.getText()).toEqual('500');
     });
-    ```
- 
-
+```
 If you're confused by the ```describe``` and the ```it``` syntax, then you should probably read the `jasmine` framework first to know how protractor leverages the power of `jasmine` to run tests.
 
 

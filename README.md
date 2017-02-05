@@ -1,6 +1,6 @@
 #####protractor-demo-new
 
-protractor is an e2e (end-to-end) testing framework used for testing angular applications.
+[Protractor](http://www.protractortest.org/#/) is an e2e (end-to-end) testing framework used for testing angular applications.
 
 
 # SetUp :
@@ -61,7 +61,7 @@ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, pl
 
 ```
 
-Your Protractor test will send requests to this server to control a local browser. You can see information about the status of the server at http://localhost:4444/wd/hub.
+Your Protractor test will send requests to this server to control a local browser. You can see information about the status of the server at [http://localhost:4444/wd/hub](http://localhost:4444/wd/hub).
 
 
 # Simple Test
@@ -123,9 +123,13 @@ exports.config={
 }
 ```
 
-The various parameters defined in the configuration files are specific to this test and tells the protractor under which configuration to run the tests. `framework` tells this that the `jasmine` framework is used. You can also use another framework `chai` in place of `jasmine`. 
+The various parameters defined in the configuration files are specific to this test and tells the protractor under which configuration to run the tests. 
 
-`specs` tells protractor which spec file to run for this set of tests and `seleniumAddress` tells the server address where the server would be listening to the requests.
+*`framework` tells this that the `jasmine` framework is used. You can also use another framework `chai` in place of `jasmine`. 
+
+*`specs` tells protractor which spec file to run for this set of tests and 
+
+*`seleniumAddress` tells the server address where the server would be listening to the requests.
 
 
 # Running Tests

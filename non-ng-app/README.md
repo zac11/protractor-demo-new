@@ -1,7 +1,7 @@
 # Configuring Protractor to Run Non-Angular App. 
 
 
-If you run a non-angular app with protractor, then it will error out. You can read more about this here- link
+If you run a non-angular app with protractor, then it will error out. You can read more about this here- [link](https://github.com/angular/protractor/issues/51)
 
 In order to run a non-angular app using protractor, we need some changes and we could actually do this in a couple of ways.
 

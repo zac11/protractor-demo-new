@@ -2,7 +2,7 @@
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-				- [protractor-demo-new](#)
+				- [Protractor Demo New]
 - [SetUp :](#)
 - [Starting Webdriver](#)
 - [Simple Test](#)
